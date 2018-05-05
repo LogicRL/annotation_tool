@@ -1,7 +1,10 @@
 import sys
 import shutil
+import os
 
-FILE_PATH = '/Users/wangwei/Desktop/10703DeepRL/proj/imgLevel1Label/'
+PROJ_PATH = os.path.abspath(os.path.dirname(os.getcwd()))
+FILE_PATH = PROJ_PATH + '/data/imgLevel1Label_20180504_01/'
+
 FILE_TYPE = '.txt'
 
 def copy_file(src_idx, goal_start, goal_end):

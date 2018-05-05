@@ -13,8 +13,8 @@ import matplotlib.image as mpimg
 import time
 
 
-
-IMG_PATH = '/Users/wangwei/Desktop/10703DeepRL/proj/imgLevel1Label/'
+PROJ_PATH = os.path.abspath(os.path.dirname(os.getcwd()))
+IMG_PATH = PROJ_PATH + '/data/imgLevel1Label_20180504_01/'
 IMG_TYPE = '.png'
 ANN_TYPE = '.txt'
 

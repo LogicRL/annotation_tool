@@ -11,7 +11,7 @@ __email__       = "dq@cs.cmu.edu"
 __website__     = "http://www.davidqiu.com/"
 __copyright__   = "Copyright (C) 2018, David Qiu. All rights reserved."
 
-
+import os
 import numpy as np
 import gym
 import time
@@ -24,7 +24,9 @@ import pdb
 
 from scipy.misc import imsave
 
-IMG_DIR_NAME = '/Users/wangwei/Desktop/10703DeepRL/proj/imgLevel1/'
+PROJ_PATH = os.path.abspath(os.path.dirname(os.getcwd()))
+IMG_DIR_NAME = PROJ_PATH + '/data/imgLevel1'
+
 KEY_SPACE = ord(' ') # 32
 KEY_A = ord('a') # 97
 KEY_W = ord('w') # 119
