@@ -25,7 +25,7 @@ import pdb
 from scipy.misc import imsave
 
 PROJ_PATH = os.path.abspath(os.path.dirname(os.getcwd()))
-IMG_DIR_NAME = PROJ_PATH + '/data/imgLevel1'
+IMG_DIR_NAME = PROJ_PATH + '/data/imgLevel1/'
 
 KEY_SPACE = ord(' ') # 32
 KEY_A = ord('a') # 97
